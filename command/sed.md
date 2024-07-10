@@ -175,7 +175,7 @@ sed '$d' file
 删除文件中所有开头是test的行：
 
 ```shell
-sed '/^test/'d file
+sed '/^test/d' file
 ```
 
 ###  已匹配字符串标记& 
